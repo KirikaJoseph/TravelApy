@@ -1,0 +1,18 @@
+ td {
+      width: 150px;  /* Adjust the cell width */
+      height: 150px; /* Adjust the cell height */
+      border: 1px solid #000;
+      text-align: center;
+      vertical-align: middle;
+      overflow: hidden;
+      position: relative; /* Ensures the image is confined to the cell */
+    }
+
+    img {
+      max-width: 100%;  /* Scales the image's width to fit the cell */
+      max-height: 100%; /* Scales the image's height to fit the cell */
+      object-fit: contain; /* Ensures the entire image is visible */
+    }
+    thead  {
+        font-weight: bolder;
+    }
